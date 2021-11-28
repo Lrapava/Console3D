@@ -42,6 +42,7 @@ void gotoxy(int x, int y) {
 }
 
 void clearScreen() {
+	gotoxy(0,0);
 	std::cout << "\033[2J";
 }
 
